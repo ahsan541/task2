@@ -47,7 +47,8 @@ public class assertion {
 	try{
 		System.out.println("it trows exception");	a.widdraw(100000);
 			amount=in.nextInt();
-			
+			assertion b=new assertion();
+			a.deposit(10000);
 			throw new Exception ("Enter the correct value"+amount);
 			
 		}catch(Exception e){
